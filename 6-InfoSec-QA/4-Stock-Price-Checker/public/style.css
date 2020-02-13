@@ -1,0 +1,110 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4A4A;
+}
+
+header {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+h1, h3 {
+  color: #4A4A4A;
+}
+
+.container-main {
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  border: 1px solid #E6E6E6;
+  border-radius: 0.3rem;
+  padding: 15px;
+  background-color: #FAFAFA;
+}
+
+.stock-input {
+  height: 30px;
+/*   width: 100px; */
+  padding-left: 5px;
+  border: 1px solid #C5C5C5;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  box-shadow: none;
+  margin-right: 5px;
+  background-color: #fff;
+}
+
+.stock-btn {
+  background-color: #0897F7;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#testForm {
+  display: grid;
+  grid-template-columns: 105px 30px 40px 100px;
+  align-content: center;
+/*   width: 35%; */
+}
+
+#testForm2 {
+  display: grid;
+  grid-template-columns: 105px 105px 30px 80px 100px;
+  align-content: center;
+/*   width: 55%; */
+  
+}
+
+input[type=checkbox] {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.label {
+  align-self: center;
+}
+
+#userstories {
+  border: 1px solid #E6E6E6;
+  border-radius: 0.3rem;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.api-result {
+  display: grid;
+  grid-template-rows: 30px 1fr;
+  margin-top: 15px;
+  min-height: 70px;
+  border: 1px solid #E6E6E6;
+  border-radius: 0.3rem;
+  padding: 15px;
+  background-color: #F3F3F3;
+}
+
+.code-label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+
+#jsonResult {
+  
+}
+
+button:focus, input:focus {outline:0;}
+
+button:hover {
+  background-color: #108BDD;
+/*   opacity: 0.9; */
+  cursor: pointer;
+}

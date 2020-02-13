@@ -1,0 +1,45 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+body {
+/*   font-family: 'Inter', sans-serif; */
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+}
+
+#testui {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #F7F8FA;
+}
+
+.container-main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#convertField {
+/*   height: 40px; */
+/*   border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  color: #000;
+   */
+}
+
+#convert {
+/*   height: 40px; */
+/*   padding: 10px; */
+/*   background-color: #DBDBDB; 
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 1rem; */
+  
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
